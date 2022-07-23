@@ -1,0 +1,33 @@
+{
+  "name": "spotify_api_challange",
+  "version": "1.0.0",
+  "description": "this is spotify api challange",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "spotify",
+    "sequelize"
+  ],
+  "author": "Ravi Vora",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "node-fetch": "^2.6.6",
+    "sequelize": "^6.21.3"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "eslint": "^7.1.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "sequelize-cli": "^6.2.0"
+  }
+}
